@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Chae Kuk Lim</title>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 45px;
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+
+        #content {
+            font-size: 20px;
+            border-right: 3px solid gray;
+            margin: 0px;
+            padding: 20px;
+            width: 200px;
+        }
+
+        #grid #article {
+            padding: 20px;
+            margin-left: 100px;
+        }
+
+        p {
+            text-align: left;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            alert("아직 미완성입니다");
+        }
+    </script>
+
+</head>
+<body>
+    <h1><a href="homework.html">Lim Chae Kuk</a></h1>
+    <div id="grid">
+        <ul id="content">
+            <li><a href="1.html">자기소개</a></li>
+            <li><a href="2.html">방명록</a></li>
+        </ul>
+        <div id="article">
+            <div id="disqus_thread"></div>
+            <script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://homework-3.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
+    </div>
+</body>
+</html>

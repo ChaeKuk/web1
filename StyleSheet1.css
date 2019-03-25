@@ -1,0 +1,40 @@
+﻿
+h1 {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 2fr;
+}
+
+#content {
+    font-size: 20px;
+    border-right: 3px solid gray;
+    width: 200px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#grid #article {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+#content a {
+    color: gray;
+}
+
+#article p {
+    text-align: left;
+}
+
+#Hello {
+    width: 350px;
+    height: 300px;
+}
+
